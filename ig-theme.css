@@ -1,0 +1,44 @@
+:root {
+    --ig-font-family: "Lato";
+    --ig-elevation-factor: 0;
+    --ig-primary-h: 337deg;
+    --ig-primary-s: 91%;
+    --ig-primary-l: 60%;
+    --ig-secondary-h: 314deg;
+    --ig-secondary-s: 43%;
+    --ig-secondary-l: 46%;
+    --ig-error-h: 4deg;
+    --ig-error-s: 95%;
+    --ig-error-l: 67%;
+    --ig-success-h: 75deg;
+    --ig-success-s: 36%;
+    --ig-success-l: 48%;
+    --ig-warn-h: 39deg;
+    --ig-warn-s: 91%;
+    --ig-warn-l: 62%;
+    --ig-info-h: 259deg;
+    --ig-info-s: 70%;
+    --ig-info-l: 74%;
+    --ig-secondary-400-contrast: white;
+    --ig-secondary-500-contrast: white;
+    --ig-error-700-contrast: black;
+    --ig-error-800-contrast: black;
+    --ig-info-600-contrast: black;
+    --ig-info-A400-contrast: black;
+}
+
+/* align icons in their containers */
+.material-icons, .imx-icon {
+  vertical-align: middle;
+}
+
+.ig-typography h1,
+.ig-typography h2,
+.ig-typography h3,
+.ig-typography h4,
+.ig-typography h5,
+.ig-typography h6,
+.ig-typography p,
+.ig-typography__body-1 {
+    margin: 0 !important;
+}
